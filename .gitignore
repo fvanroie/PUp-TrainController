@@ -1,0 +1,24 @@
+## OS specific ########
+.DS_Store
+
+## Project files ######
+.git
+.pio
+data/*
+src/user_setups/active/*
+src/user_config_override.h
+platformio_override.ini
+user_setups/active/*
+build_output/*
+build_output/firmware/*.bin
+
+## Test result files
+*.xml
+*.bin
+
+## Visual Studio Code specific ######
+.vscode
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+*.bak
