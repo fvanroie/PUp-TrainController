@@ -9,7 +9,7 @@ char knownDevices[][18] = {
     "04:ee:03:cc:xx:xx", // Yellow Remote
     "90:84:2b:1c:xx:xx", // Yellow Train Hub
     "90:84:2b:1c:xx:xx", // Green Train Hub
-    "90:84:2b:0f:xx:xx3"  // Santa Fe Hub
+    "90:84:2b:0f:xx:xx"  // Santa Fe Hub
 };
 byte knownDeviceChannel[] = {2, 2, 4, 4, 0, 6}; // Links default hubs and remotes together
 Color channelColor[]      = {GREEN, BLUE, RED, PURPLE, YELLOW, CYAN, PINK, WHITE, ORANGE};
